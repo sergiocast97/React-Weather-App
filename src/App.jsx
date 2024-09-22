@@ -27,7 +27,7 @@ function App() {
     <>
       <div className='min-h-screen container-block'>
         <div className="flex flex-col items-start justify-center max-w-sm gap-8 mx-auto">
-          <div className='w-full bg-theme-dark border border-theme-medium py-8 px-6 rounded-lg flex flex-col'>
+          <div className='w-full bg-theme-dark border border-theme-medium py-8 px-6 rounded-lg flex flex-col shadow-lg shadow-theme-light/10'>
 
             {/* Search Form */}
             <SearchForm city={city} setCity={setCity} handleSubmit={handleSubmit} />
