@@ -1,4 +1,4 @@
-import { SearchIcon, MapPinIcon } from './Icons'
+import { SearchIcon, MapPinIcon } from './icons'
 
 export default function SearchForm({ city, setCity, handleSubmit }) {
     return (

@@ -1,4 +1,4 @@
-import { NotFoundIcon } from "./Icons";
+import { NotFoundIcon } from "./icons";
 
 export default function NotFound() {
     return (

@@ -1,4 +1,4 @@
-import { DropletIcon, WindIcon } from "./Icons";
+import { DropletIcon, WindIcon } from "./icons";
 
 export default function WeatherInfo({ icon, description, temperature, humidity, windSpeed }){
  return(
